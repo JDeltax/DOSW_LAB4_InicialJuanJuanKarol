@@ -89,6 +89,8 @@ El de generar los reportes tributarios (inicialmente), no son necesarios tan pro
 
 # Parte 4
 
+El requerimiento funcional que se elijio fue: Gestionar el estado de cuenta.
+
 
 
 
