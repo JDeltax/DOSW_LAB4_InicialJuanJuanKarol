@@ -1,5 +1,7 @@
 # 📄 Requerimientos del Sistema
 
+## Parte 3
+
 ## 1. Lista general de requerimientos
 
 El sistema de Bankify tiene los siguientes requerimientos (descripción a alto nivel):
@@ -84,6 +86,8 @@ d. ¿Existe algún requerimiento que no debería realizarse?
 El de generar los reportes tributarios (inicialmente), no son necesarios tan pronto ya que son anuales y pues, implementarlos en una primera interacción complica las cosas y consume recursos.
 
 ---
+
+# Parte 4
 
 
 
