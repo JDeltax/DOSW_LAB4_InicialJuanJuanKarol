@@ -68,6 +68,23 @@ El sistema de Bankify debe tener:
 
 ## 3. Preguntas
 
+a. ¿Identifica algún requerimiento que deba detallarse más? ¿cuál(es)?  
+La seccion de gestion de clientes pues, tiene varias acciones a realizar como crear, activar, inactivar y actualizar.  
+
+b. ¿Existen requerimientos que se contradigan entre sí? ¿cuál(es)?  
+Tal vez la sección de los roles en la gestión de las cuentas, pues, se menciona que el asesor puede realizar todas las acciones, sin embargo, más adelante se indica que el cliente también puede realizar acciones entonces, en ese orden de ideas ¿el cliente puede inactivar una cuenta y el asesor activarla sin su consentimiento?  
+
+c. Si tuviera que dar una prioridad a los requerimientos, ¿cuáles
+deberían ser los 2 más importantes que deberían implementarse en
+una primera iteración del proyecto?  
+Gestion de cuentas con validación de negocio  
+realizar depositos  
+
+d. ¿Existe algún requerimiento que no debería realizarse?  
+El de generar los reportes tributarios (inicialmente), no son necesarios tan pronto ya que son anuales y pues, implementarlos en una primera interacción complica las cosas y consume recursos.
+
+
+
 
 
 
