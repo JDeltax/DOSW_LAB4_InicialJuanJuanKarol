@@ -13,7 +13,7 @@ Actualmente, Bankify no cuenta con un sistema centralizado que permita registrar
 
 ### 3.1 Diagrama
 
-![Diagrama de Contexto UML](docs/uml/diagramacontexto.jpeg)
+![Diagrama de Contexto UML](docs/uml/imagendiag.png)
 > *Nota: Verifica que el archivo de imagen tenga exactamente ese nombre y esté en la misma carpeta que este archivo .md*
 
 ### 3.2 Actores
