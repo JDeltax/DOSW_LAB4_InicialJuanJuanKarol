@@ -8,21 +8,21 @@ El sistema de Bankify tiene los siguientes requerimientos (descripción a alto n
 
 El sistema de Bankify debe tener la capacidad de:
 
-1.
-2.
-3.
-4.
-5.
+1. Validar estructura de cuenta
+2. Gestionar el estado de la cuenta
+3. Procesar depósitos
+4. Generar los reportes tributarios
+5. Eliminar registro de clientes
 
 ### 1.2 Requerimientos funcionales
 
 El sistema de Bankify debe tener:
 
-1.
-2.
-3.
-4.
-5.
+1. Seguridad
+2. Udsabilidad
+3. Integridad de los Datos
+4. Disponibilidad de operación
+5. Interoperabilidad 
 
 ## 2. Diagramas de caso de uso
 
@@ -67,3 +67,4 @@ El sistema de Bankify debe tener:
 | **Poscondiciones** | *Se espera como resultado …* |
 
 ## 3. Preguntas
+
