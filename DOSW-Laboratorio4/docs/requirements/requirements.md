@@ -83,6 +83,8 @@ realizar depositos
 d. ¿Existe algún requerimiento que no debería realizarse?  
 El de generar los reportes tributarios (inicialmente), no son necesarios tan pronto ya que son anuales y pues, implementarlos en una primera interacción complica las cosas y consume recursos.
 
+---
+
 
 
 
