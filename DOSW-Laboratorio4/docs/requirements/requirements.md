@@ -89,7 +89,10 @@ El de generar los reportes tributarios (inicialmente), no son necesarios tan pro
 
 # Parte 4
 
-El requerimiento funcional que se elijio fue: Gestionar el estado de cuenta.
+El requerimiento funcional que se elijio fue: 
+Gestionar el estado de cuenta.
+De esta manera, para realizar el mockup se desengloso basado en el caso de uso realizado anteriormente en la Parte 3, asi mismo, se le agregaron aspectos como ver bolsillo, ver saldo, ver historial de transferencias, etc.
+
 
 
 
