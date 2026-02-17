@@ -13,8 +13,8 @@ El sistema de Bankify debe tener la capacidad de:
 3. Procesar depósitos
 4. Generar los reportes tributarios
 5. Eliminar registro de clientes
-
-### 1.2 Requerimientos funcionales
+ 
+### 1.2 Requerimientos No funcionales
 
 El sistema de Bankify debe tener:
 
@@ -67,4 +67,5 @@ El sistema de Bankify debe tener:
 | **Poscondiciones** | *Se espera como resultado …* |
 
 ## 3. Preguntas
+
 
