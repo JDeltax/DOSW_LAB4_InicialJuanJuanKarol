@@ -47,4 +47,24 @@ Hay dos maneras, una gráfica GUI y otra por línea de comandos
 
   ### f. ¿Cómo se aprueba un pull request en GitHub?
   Se puede desde git bash en nano aparecerán los conflitctos o de manera GUI en el sitio web, así se verifica lo que se va a cambiar, se solucionan errores y se hace el merge.
-  
+
+
+  ### BIBLIOGRAFÍA
+
+Apache Maven Project. (n.d.). Introduction to archetypes. Apache Software Foundation. https://maven.apache.org/guides/introduction/introduction-to-archetypes.html  
+
+Apache Maven Project. (n.d.). Maven archetype quickstart. Apache Software Foundation. https://maven.apache.org/archetypes/maven-archetype-quickstart/  
+
+Apache Maven Project. (n.d.). What is Maven? Apache Software Foundation. https://maven.apache.org/what-is-maven.html  
+
+JUnit Team. (n.d.). JUnit 5 user guide. https://junit.org/junit5/docs/current/user-guide/  
+
+VMware, Inc. (n.d.). Spring Boot reference documentation. https://docs.spring.io/spring-boot/docs/current/reference/html/  
+
+Chacon, S., & Straub, B. (2014). Pro Git (2nd ed.). Apress. https://git-scm.com/book/en/v2  
+
+GitHub, Inc. (n.d.). About pull requests. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/about-pull-requests  
+
+GitLab B.V. (n.d.). Merge requests. https://docs.gitlab.com/ee/user/project/merge_requests/  
+
+Atlassian. (n.d.). Pull request tutorial. https://www.atlassian.com/git/tutorials/making-a-pull-request  
