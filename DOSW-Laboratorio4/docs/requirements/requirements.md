@@ -50,7 +50,7 @@ El sistema de Bankify debe tener:
 | **Precondiciones** | Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente la cuenta destino existente y validada.  |
 | **Actor** | Cliente o usuario externo |
 | **Flujo principal** | 1. El actor ingresa el numero de cuenta donde va a depositar y el respectivo monto <br>2. El sistema validar que la cuenta exista y esté activas <br>3. El sistema suma el monto al saldo de la cuenta depositada y  registra en un historial la transaccion |
-| **Diagrama de caso de uso** | /uml/deposito.png |
+| **Diagrama de caso de uso** | ![Diagrama de Contexto UML](docs/uml/deposito.png) |
 | **Poscondiciones** | Se espera como resultado que el saldo de la cuenta a depositar incremente y se genere el combrobante. |
 
 ### 2.3 Requerimiento Funcional 3
@@ -82,6 +82,7 @@ realizar depositos
 
 d. ¿Existe algún requerimiento que no debería realizarse?  
 El de generar los reportes tributarios (inicialmente), no son necesarios tan pronto ya que son anuales y pues, implementarlos en una primera interacción complica las cosas y consume recursos.
+
 
 
 
