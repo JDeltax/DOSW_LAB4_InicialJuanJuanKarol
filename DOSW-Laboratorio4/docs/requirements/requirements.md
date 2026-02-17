@@ -31,13 +31,13 @@ El sistema de Bankify debe tener:
 | Campo | Descripción |
 |------|-------------|
 | **ID** | RF-01 |
-| **Nombre del requerimiento** | |
-| **Descripción** | *El sistema debe …* |
-| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente …* |
-| **Actor** | *(El actor debe estar definido en el diagrama de contexto)* |
-| **Flujo principal** | 1. El actor …<br>2. El sistema …<br>3. El sistema … |
+| **Nombre del requerimiento** | Gestionar estado de la cuenta |
+| **Descripción** | El sistema debe permitir al cliente ver el saldo y datos básicos que posee de sus cuentas vinculadas |
+| **Precondiciones** | Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente al cliente autentificado y con al menos una cuenta activa asociada |
+| **Actor** | Cliente |
+| **Flujo principal** | 1. El actor selecciona la opcion de consular saldo <br>2. El sistema recupera la info de las cuentas asociadas (id del cliente) <br>3. El sistema muestra en la pantalla el numero de la cuenta y el saldo disponible|
 | **Diagrama de caso de uso** | *imagen y link*|
-| **Poscondiciones** | *Se espera como resultado …* |
+| **Poscondiciones** | Se espera como resultado que el cliente utilizando el sistema pueda ver su info financiera sin alterar los datos que ya tiene |
 
 
 ### 2.2 Requerimiento Funcional 2
@@ -67,5 +67,6 @@ El sistema de Bankify debe tener:
 | **Poscondiciones** | *Se espera como resultado …* |
 
 ## 3. Preguntas
+
 
 
