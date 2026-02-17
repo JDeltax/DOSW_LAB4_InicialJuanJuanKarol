@@ -36,7 +36,7 @@ El sistema de Bankify debe tener:
 | **Precondiciones** | Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente al cliente autentificado y con al menos una cuenta activa asociada |
 | **Actor** | Cliente |
 | **Flujo principal** | 1. El actor selecciona la opcion de consular saldo <br>2. El sistema recupera la info de las cuentas asociadas (id del cliente) <br>3. El sistema muestra en la pantalla el numero de la cuenta y el saldo disponible|
-| **Diagrama de caso de uso** | ![Gestion](docs/uml/gestion.png) |
+| **Diagrama de caso de uso** | ![Gestion](../docs/uml/gestion.png) |
 | **Poscondiciones** | Se espera como resultado que el cliente utilizando el sistema pueda ver su info financiera sin alterar los datos que ya tiene |
 
 
@@ -50,7 +50,7 @@ El sistema de Bankify debe tener:
 | **Precondiciones** | Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente la cuenta destino existente y validada.  |
 | **Actor** | Cliente o usuario externo |
 | **Flujo principal** | 1. El actor ingresa el numero de cuenta donde va a depositar y el respectivo monto <br>2. El sistema validar que la cuenta exista y esté activas <br>3. El sistema suma el monto al saldo de la cuenta depositada y  registra en un historial la transaccion |
-| **Diagrama de caso de uso** | ![Deposito](docs/uml/deposito.png) |
+| **Diagrama de caso de uso** | ![Deposito](../docs/uml/deposito.png) |
 | **Poscondiciones** | Se espera como resultado que el saldo de la cuenta a depositar incremente y se genere el combrobante. |
 
 ### 2.3 Requerimiento Funcional 3
@@ -63,7 +63,7 @@ El sistema de Bankify debe tener:
 | **Precondiciones** | Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente consolidados los movimientos financieros del año correspondiente a generar. |
 | **Actor** | cliente |
 | **Flujo principal** | 1. El actor solicita la generación del reporte tributario seleccionando el año correspondiente <br>2. El sistema compila la info de todas las cuentas pertenecientes al clientes <br>3. El sistema exporta la información y genera el archivo en formato PDF |
-| **Diagrama de caso de uso** | ![Reporte](docs/uml/reporte.png) |
+| **Diagrama de caso de uso** | ![Reporte](../docs/uml/reporte.png) |
 | **Poscondiciones** | Se espera como resultado un PDF con la info recolectada y correcta de los movimientos bancarios del año seleccionado por el actor |
 
 ## 3. Preguntas
@@ -82,6 +82,7 @@ realizar depositos
 
 d. ¿Existe algún requerimiento que no debería realizarse?  
 El de generar los reportes tributarios (inicialmente), no son necesarios tan pronto ya que son anuales y pues, implementarlos en una primera interacción complica las cosas y consume recursos.
+
 
 
 
