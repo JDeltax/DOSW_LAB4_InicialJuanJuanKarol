@@ -58,15 +58,16 @@ El sistema de Bankify debe tener:
 | Campo | Descripción |
 |------|-------------|
 | **ID** | RF-03 |
-| **Nombre del requerimiento** | |
-| **Descripción** | *El sistema debe …* |
-| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente …* |
-| **Actor** | *(El actor debe estar definido en el diagrama de contexto)* |
-| **Flujo principal** | 1. El actor …<br>2. El sistema …<br>3. El sistema … |
+| **Nombre del requerimiento** | Generar reportes tributarios |
+| **Descripción** | El sistema debe generar un documento con el resumen de movimientos anuales para tramites legales.  |
+| **Precondiciones** | Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente consolidados los movimientos financieros del año correspondiente a generar. |
+| **Actor** | cliente |
+| **Flujo principal** | 1. El actor solicita la generación del reporte tributario seleccionando el año correspondiente <br>2. El sistema compila la info de todas las cuentas pertenecientes al clientes <br>3. El sistema exporta la información y genera el archivo en formato PDF |
 | **Diagrama de caso de uso** | *imagen y link*|
-| **Poscondiciones** | *Se espera como resultado …* |
+| **Poscondiciones** | Se espera como resultado un PDF con la info recolectada y correcta de los movimientos bancarios del año seleccionado por el actor |
 
 ## 3. Preguntas
+
 
 
 
