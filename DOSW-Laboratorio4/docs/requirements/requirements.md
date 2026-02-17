@@ -45,13 +45,13 @@ El sistema de Bankify debe tener:
 | Campo | Descripción |
 |------|-------------|
 | **ID** | RF-02 |
-| **Nombre del requerimiento** | |
-| **Descripción** | *El sistema debe …* |
-| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente …* |
-| **Actor** | *(El actor debe estar definido en el diagrama de contexto)* |
-| **Flujo principal** | 1. El actor …<br>2. El sistema …<br>3. El sistema … |
+| **Nombre del requerimiento** | Realizar depósitos |
+| **Descripción** | El sistema debe permitir registrar ingresos del dinero en una especifica cuenta validando así, la existencia de la cuenta antes de la transacción. |
+| **Precondiciones** | Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente la cuenta destino existente y validada.  |
+| **Actor** | Cliente o usuario externo |
+| **Flujo principal** | 1. El actor ingresa el numero de cuenta donde va a depositar y el respectivo monto <br>2. El sistema validar que la cuenta exista y esté activas <br>3. El sistema suma el monto al saldo de la cuenta depositada y  registra en un historial la transaccion |
 | **Diagrama de caso de uso** | *imagen y link*|
-| **Poscondiciones** | *Se espera como resultado …* |
+| **Poscondiciones** | Se espera como resultado que el saldo de la cuenta a depositar incremente y se genere el combrobante. |
 
 ### 2.3 Requerimiento Funcional 3
 
@@ -67,6 +67,7 @@ El sistema de Bankify debe tener:
 | **Poscondiciones** | *Se espera como resultado …* |
 
 ## 3. Preguntas
+
 
 
 
