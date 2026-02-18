@@ -1,5 +1,7 @@
 # 📄 Requerimientos del Sistema
 
+## Parte 3
+
 ## 1. Lista general de requerimientos
 
 El sistema de Bankify tiene los siguientes requerimientos (descripción a alto nivel):
@@ -83,15 +85,27 @@ realizar depositos
 d. ¿Existe algún requerimiento que no debería realizarse?  
 El de generar los reportes tributarios (inicialmente), no son necesarios tan pronto ya que son anuales y pues, implementarlos en una primera interacción complica las cosas y consume recursos.
 
+---
 
+# Parte 4
 
+El requerimiento funcional que se elijio fue:
 
+Gestionar el estado de cuenta.
 
+De esta manera, para realizar el mockup se desengloso basado en el caso de uso realizado anteriormente en la Parte 3, asi mismo, se le agregaron aspectos como ver bolsillo, ver saldo, ver historial de transferencias, etc.
 
+los Mockups diseñados fueron los sigueintes:
 
+---
+## Mockup 1 (Cuenta)
 
+![Cuenta](../images/MockUp1.png)
 
+## Mockup 2 (Movimientos)
 
+![Movimientos](../images/MockUp2.png)
 
+## Mockup 3 (Productos)
 
-
+![Productos](../images/MockUp3.png)
